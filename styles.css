@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.max-width{
+    max-width: 800px;
+    padding: 0 200px;
+    margin: auto;
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0; 
+    background: powderblue; 
+    font-family: 'Ubuntu' sans-serif;
+
+
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .home {
+    display:flex;
+    background: url("images/cool-background.png") no-repeat center;
+    height: 100vh;
+    color:white;
+    min-width: 100%;
+    min-height: 300%;
+    font-family:inherit
+    
+  }
+  .home .max-width{
+      margin: auto 0 auto 650px;
+
+  }
+
+  .home .home-content .hello{
+      font-size: 40px;
+  }
+
+  .about{
+      font-family:Arial, Helvetica, sans-serif;
+
+  }
+  .about .title{
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 60px;
+      padding-bottom: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.about .about-content .paragraph .text{
+    font-size: 40px;
+    padding-bottom: 100px;
+
+}
+
+.projects{
+    padding: 100px 0;
+
+}
+
+.projects .title{
+text-align: center;
+font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-bottom: 20px;
+
+}
+.projects .text{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+}
+
+.contact .title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    padding-bottom: 25px;
+
+}
